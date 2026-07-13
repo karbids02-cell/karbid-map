@@ -1,0 +1,55 @@
+[
+  {
+    "group": "1. Карта и слои",
+    "items": [
+      {
+        "name": "Базовая карта (OSM)",
+        "type": "base",
+        "visible": true
+      },
+      {
+        "file": "map_base.geojson",
+        "key": "map_base",
+        "name": "Объекты (основной слой)",
+        "color": "#0000ff",
+        "weight": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "group": "2. Полезности для местности",
+    "items": [
+      {
+        "file": "tek_objects.geojson",
+        "key": "tek_objects",
+        "name": "Объекты ТЭК",
+        "color": "#ff8800",
+        "weight": 2,
+        "visible": true
+      },
+      {
+        "file": "gas_stations.geojson",
+        "key": "gas_stations",
+        "name": "Заправки",
+        "color": "#00aa00",
+        "weight": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "group": "3. Пролёты",
+    "items": [
+      {
+        "file": "flights_routes.geojson",
+        "key": "flights_routes",
+        "name": "Маршруты/пролёты дронов",
+        "color": "#aa00aa",
+        "weight": 3,
+        "dashArray": "5,5",
+        "visible": false
+      }
+    ]
+  }
+]
